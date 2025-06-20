@@ -69,7 +69,7 @@ while running:
                 tron_dx = 0
                 tron_dy = CELL_SIZE
 
-    #Update the x,y position of the snakes head and make a new coordinate
+
     tron_x += tron_dx
     tron_y += tron_dy
     tron_coord = (tron_x, tron_y, CELL_SIZE, CELL_SIZE)
